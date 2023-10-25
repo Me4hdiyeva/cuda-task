@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header css startet */
+
+header {
+    background-color: #87509c;
+
+}
+
+header nav {
+    padding-top: 145px;
+
+}
+
+header nav ul li {
+    display: inline;
+    padding-top: 53px;
+    margin: 15px;
+
+
+}
+
+header nav ul {
+    float: right;
+    margin-top: 9px;
+
+}
+
+.active
+header nav ul li{
+    padding: 10px 20px;
+border-radius: 4px;
+background-color: #643a79;
+}
+ 
+
+
+ .active,
+header nav ul li a:hover {
+    border-radius: 4px;
+    background-color: #643a79; 
+    padding: 9px 10px;
+} 
+    
+    /* width: 77px;
+height: 32px; */
+/* border-radius: 4px;
+background-color: #643a79;
+width: 77px;
+height: 32px;
+border-radius: 4px;
+background-color: #643a79; 
+header nav ul li a
+    font-size: 16px;
+line-height: 18px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Titillium Web"; */
+
+
+
+
+
+.active header nav ul li a {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    margin-left: 27px;
+    transition: 0.5s;
+    padding: 9px 10px;
+
+}
+
+nav h1 {
+    font-size: 42px;
+    line-height: 49px;
+    color: #f7f3ea;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-top: 194px;
+
+}
+
+nav div button {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* 'margin:0 auto;' */
+    width: 293px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: #eb7d4b;
+    margin: 400px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Titillium Web";
+
+}
+section{
+    background-color: #17c2a4
+
+}
+section h1
+{font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-top: 120px;
+
+}
+section hr {
+    opacity: 0.149;
+width: 87px;
+height: 4px;
+background-color: #000000;
+margin: 506px ;
+}
+section p {
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Titillium Web";
+text-align: center;
+}
